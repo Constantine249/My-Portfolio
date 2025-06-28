@@ -19,7 +19,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 60.5%;
     overflow-x: hidden;
 }
 
@@ -120,7 +120,7 @@ span {
 }
 
 .home-content p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .social-media a {
@@ -189,7 +189,9 @@ span {
 }
 
 .about-content p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
     margin: 2rem 0 3rem;
 }
 
@@ -230,11 +232,11 @@ span {
 }
 
 .services-box h3 {
-    font-size: 2.6rem;
+    font-size: 2rem;
 }
 
 .services-box p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 1rem 0 3rem;
 }
 
@@ -299,7 +301,7 @@ span {
 }
 
 .portfolio-layer p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin: .3rem 0 1rem;
 }
 
@@ -430,6 +432,10 @@ span {
 
 
 @media (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
     #menu-icon {
         display: block;
     }
@@ -505,7 +511,11 @@ span {
 
 @media (max-width: 450px) {
     html {
-        font-size: 50%;
+        font-size: 52%;
+    }
+
+    #menu-icon {
+        margin-right: 1rem;
     }
 
     .contact form .input-box input {
