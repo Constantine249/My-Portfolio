@@ -191,7 +191,7 @@ span {
 .about-content p {
     font-size: 1.5rem;
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.6;
     margin: 2rem 0 3rem;
 }
 
@@ -321,6 +321,10 @@ span {
 }
 
 /* Contact */
+.contact {
+    background:  var(--bg-color);
+}
+
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -382,8 +386,13 @@ span {
     align-items: center;
     padding: .8rem;
     background: var(--main-color);
-    border-radius: .1rem;
+    border-radius: .5rem;
     transition: .5s linear;
+}
+
+.footer-iconTop a i {
+    font-size: 1rem;
+    color: var(--text-color);
 }
 
 .footer-iconTop a:hover {
